@@ -1,0 +1,258 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+*,
+*:active,
+*:focus,
+*:hover,
+*:link,
+*:visited {
+  -o-transition: background-color 0.2s linear, border-color 0.1s linear;
+  -webkit-transition: background-color 0.2s linear, border-color 0.1s linear;
+  -moz-transition: background-color 0.2s linear, border-color 0.1s linear;
+  transition: background-color 0.2s linear, border-color 0.1s linear;
+}
+
+/* ------- 標頭設計(字級,字距,顏色) ------- */
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: arial, "Noto Sans TC", "微軟正黑體", sans-serif;
+}
+
+footer {
+  padding: 1rem 0;
+  text-align: center;
+  background: #559ac8;
+  color: #fff;
+  a {
+    color: #f5d005;
+  }
+}
+
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.jumbotron-bg {
+  background-image: url(../image/Hero.png);
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+}
+
+// #topcontrol {
+//   width: 50px;
+//   height: 50px;
+//   background: #8A82CC;
+//   -ms-border-radius: 50%;
+//   -moz-border-radius: 50%;
+//   -webkit-border-radius: 50%;
+//   border-radius: 50%; }
+//   #topcontrol:before {
+//     content: "";
+//     font-family: "Font Awesome 5 Free";
+//     -moz-osx-font-smoothing: grayscale;
+//     -webkit-font-smoothing: antialiased;
+//     font-weight: 900;
+//     font-style: normal;
+//     display: block;
+//     position: absolute;
+//     color: #fff;
+//     top: 50%;
+//     left: 50%;
+//     -moz-transform: translate(-50%, -50%);
+//     -webkit-transform: translate(-50%, -50%);
+//     -o-transform: translate(-50%, -50%);
+//     -ms-transform: translate(-50%, -50%);
+//     transform: translate(-50%, -50%); }
+
+// .kv {
+//   text-align: center;
+//   padding: 5.5rem 0;
+//   background: url(https://hexschool.github.io/JavaScript_HomeWork/assets/Hero.png) no-repeat center center;
+//   background-size: cover;
+//   position: relative; }
+//   .kv label {
+//     display: block;
+//     font-size: 2.5rem;
+//     color: #fff;
+//     margin-bottom: 4rem; }
+//   .kv select {
+//     width: 50%;
+//     margin: 0 auto;
+//     background-color: rgba(255, 255, 255, 0.8);
+//     border: 2px solid #fff;
+//     font-size: 1.2rem;
+//     color: #000; }
+//   .kv select.form-control:not([size]):not([multiple]) {
+//     height: 3rem; }
+
+.nav-bar {
+  width: 80%;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  border-radius: 5px;
+
+  box-shadow: 0 3px 3px 3px #00000020;
+  background: #fff;
+  padding: 1.3rem 2rem;
+ 
+}
+
+.line {
+  border-bottom: 1px dashed #8a82cc;
+  margin-bottom: 5rem;
+}
+.line i {
+  display: inline-block;
+  padding: 3px 6px;
+  border: 1px solid #559ac8;
+  // -ms-border-radius: 50%;
+  // -moz-border-radius: 50%;
+  // -webkit-border-radius: 50%;
+  border-radius: 50%;
+  color: #559ac8;
+  background-color: #fff;
+  // -moz-transform: translateY(50%);
+  // -webkit-transform: translateY(50%);
+  // -o-transform: translateY(50%);
+  // -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.showTitle {
+  color: #8a82cc;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.item {
+  background: #fff;
+  -webkit-box-shadow: 0 3px 3px 3px #00000020;
+  -ms-box-shadow: 0 3px 3px 3px #00000020;
+  box-shadow: 0 3px 3px 3px #00000020;
+
+  .area-img {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+
+    .sub-title {
+      color: blue;
+      position: absolute;
+      font-size: 1.5rem;
+      left: 1rem;
+      bottom: 1rem;
+      margin-bottom: 0;
+      top: 120px;
+
+      z-index: 2;
+    }
+    .area {
+      color: blue;
+      position: absolute;
+      font-size: 1rem;
+      right: 1rem;
+      bottom: 1rem;
+      margin-bottom: 0;
+      top: 120px;
+      z-index: 2;
+    }
+  }
+}
+
+// .item .area-img::before {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   width: 100%;
+//   height: 30%;
+//   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 100%);
+//   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 100%);
+//   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
+//   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 100%);
+//   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%);
+//   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+//   left: 0;
+//   bottom: 0;
+//   z-index: 1;
+// }
+// .item .area-img img {
+//   position: absolute;
+//   top: 50%;
+//   left: 0;
+//   -moz-transform: translateY(-50%);
+//   -webkit-transform: translateY(-50%);
+//   -o-transform: translateY(-50%);
+//   -ms-transform: translateY(-50%);
+//   transform: translateY(-50%);
+// }
+
+.item ul {
+  width: 100%;
+  line-height: 2;
+  position: absolute;
+  bottom: 0;
+  li {
+    padding-left: 1.5rem;
+  }
+  .tag {
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+  }
+}
+
+// .item ul li::before {
+//   content: "";
+//   position: absolute;
+//   display: block;
+//   width: 1rem;
+//   height: 1rem;
+//   top: 11px;
+//   left: 0;
+// }
+
+// @media (max-width: 992px) {
+//   .nav-bar {
+//     width: 100%; } }
+
+// @media (max-width: 768px) {
+//   .kv select {
+//     width: 100%; }
+//   .nav-bar {
+//     top: -3rem;
+//     -moz-transform: translate(-50%, 0);
+//     -webkit-transform: translate(-50%, 0);
+//     -o-transform: translate(-50%, 0);
+//     -ms-transform: translate(-50%, 0);
+//     transform: translate(-50%, 0); }
+//     .nav-bar ul {
+//       -webkit-flex-direction: row;
+//       -moz-flex-direction: row;
+//       -ms-flex-direction: row;
+//       -o-flex-direction: row;
+//       -webkit-box-orient: horizontal;
+//       -webkit-box-direction: normal;
+//       flex-direction: row;
+//       -webkit-flex-wrap: wrap;
+//       -moz-flex-wrap: wrap;
+//       -ms-flex-wrap: wrap;
+//       -o-flex-wrap: wrap;
+//       flex-wrap: wrap; }
+//       .nav-bar ul * {
+//         -ms-flex: 0 1 auto; }
+//       .nav-bar ul li {
+//         width: 100%;
+//         margin-bottom: 1rem;
+//         text-align: center; } }
+
+// @-moz-document url-prefix() {}
+
+/*# sourceMappingURL=main.css.map */

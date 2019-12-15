@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+*,
+*:active,
+*:focus,
+*:hover,
+*:link,
+*:visited {
+  -webkit-transition: background-color 0.2s linear, border-color 0.1s linear;
+  transition: background-color 0.2s linear, border-color 0.1s linear;
+}
+
+/* ------- 標頭設計(字級,字距,顏色) ------- */
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: arial, "Noto Sans TC", "微軟正黑體", sans-serif;
+}
+
+footer {
+  padding: 1rem 0;
+  text-align: center;
+  background: #559ac8;
+  color: #fff;
+}
+
+footer a {
+  color: #f5d005;
+}
+
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.jumbotron-bg {
+  background-image: url(../image/Hero.png);
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+}
+
+.nav-bar {
+  width: 80%;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 3px 3px 3px #00000020;
+          box-shadow: 0 3px 3px 3px #00000020;
+  background: #fff;
+  padding: 1.3rem 2rem;
+}
+
+.line {
+  border-bottom: 1px dashed #8a82cc;
+  margin-bottom: 5rem;
+}
+
+.line i {
+  display: inline-block;
+  padding: 3px 6px;
+  border: 1px solid #559ac8;
+  border-radius: 50%;
+  color: #559ac8;
+  background-color: #fff;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.showTitle {
+  color: #8a82cc;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.item {
+  background: #fff;
+  -webkit-box-shadow: 0 3px 3px 3px #00000020;
+  -ms-box-shadow: 0 3px 3px 3px #00000020;
+  box-shadow: 0 3px 3px 3px #00000020;
+}
+
+.item .area-img {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.item .area-img .sub-title {
+  color: blue;
+  position: absolute;
+  font-size: 1.5rem;
+  left: 1rem;
+  bottom: 1rem;
+  margin-bottom: 0;
+  top: 120px;
+  z-index: 2;
+}
+
+.item .area-img .area {
+  color: blue;
+  position: absolute;
+  font-size: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  margin-bottom: 0;
+  top: 120px;
+  z-index: 2;
+}
+
+.item ul {
+  width: 100%;
+  line-height: 2;
+  position: absolute;
+  bottom: 0;
+}
+
+.item ul li {
+  padding-left: 1.5rem;
+}
+
+.item ul .tag {
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+}
+/*# sourceMappingURL=all.css.map */
